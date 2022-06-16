@@ -19,7 +19,7 @@ ls -la'''
 
     stage('build') {
       steps {
-        sh 'sh \'ant -f build.xml -v\''
+        sh 'ant -f build.xml -v'
       }
     }
 
